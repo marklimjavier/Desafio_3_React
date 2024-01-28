@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#buscador{
+  width: 400px;
+  margin-bottom: 15px;
+  border-radius: 5%;
+}
+section {
+  display: flex;
+  gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: column;}
+  }
